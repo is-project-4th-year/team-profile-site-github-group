@@ -2,30 +2,60 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team Profile</title>
-  <style>
+    <style>
     body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background: #f4f4f4;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      padding: 40px;
+      background: #ffffff;
+      color: #444;
     }
 
     h1 {
-      color: #333;
+      color: #000000;
+      text-align: center;
+      font-size: 3em;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px #fff0f5;
     }
 
     .member {
-      background: #fff;
-      padding: 15px;
+      background: #ffffff;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .member:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(255, 105, 180, 0.2);
+    }
+
+    .member h2 {
+      color: #000000;
       margin-bottom: 10px;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     }
 
     .avatar {
-      max-width: 100px;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #26ab9f;
+      margin: 15px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    }
+
+    p {
+      font-size: 1.1em;
+      margin: 5px 0;
+    }
+
+    strong {
+      color: #26ab9f;
     }
   </style>
 </head>
